@@ -1,0 +1,75 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #ff4655, #1b1d23);
+    color: white;
+}
+
+.container {
+    background-color: #1b1d23;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    width: 350px;
+    text-align: center;
+    border: 2px solid #ff4655;
+}
+
+.container h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    color: #ff4655;
+    text-transform: uppercase;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    font-size: 14px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ff4655;
+    border-radius: 5px;
+    font-size: 14px;
+    background-color: #2a2d34;
+    color: white;
+}
+
+.input-group input:focus {
+    outline: none;
+    border-color: #ff4655;
+    box-shadow: 0 0 5px #ff4655;
+}
+
+.button {
+    background-color: #ff4655;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.button:hover {
+    background-color: #d13a4a;
+}
