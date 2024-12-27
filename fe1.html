@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Attendance Calculator</h1>
+        <form id="attendance-form">
+            <div class="input-group">
+                <label for="classes-attended">Classes Attended:</label>
+                <input type="number" id="classes-attended" name="classes-attended" min="0" required>
+            </div>
+            <div class="input-group">
+                <label for="current-percentage">Current Attendance Percentage:</label>
+                <input type="number" id="current-percentage" name="current-percentage" min="0" max="100" required>
+            </div>
+            <button type="submit" class="button">Calculate</button>
+        </form>
+    </div>
+</body>
+</html>
